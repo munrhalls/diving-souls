@@ -72,6 +72,12 @@ article {
     bottom: -3rem;
 
     border-radius: 50%;
+    transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+.trigger:hover {
+    transform: scale(7) translate(0, -50%);
+
 }
 
 .trigger-icon {
