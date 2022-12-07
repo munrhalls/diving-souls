@@ -76,7 +76,7 @@ article {
 }
 
 .trigger:hover {
-    transform: scale(7) translate(0, -50%);
+    transform: scale(7) translate(0, -50%) rotateZ(-180deg);
 
 }
 
