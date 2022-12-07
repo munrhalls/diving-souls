@@ -1,0 +1,36 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    min-height: 5rem;
+    background-color: darkblue;
+}
+
+main {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    min-height: auto;
+}
+
+article {
+    grid-column-start: 2;
+    background-color: darkcyan;
+}
+
+.box {
+    
+}
+
+ul {
+    grid-column-start: 1;
+    background-color: black;
+}
+footer {
+    background-color: darkblue;
+    min-height: 5rem;
+    margin-top: auto;
+}
