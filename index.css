@@ -1,6 +1,5 @@
+@import './accents.css';
 @import './font.css';
-
-
 
 
 html {
@@ -12,13 +11,16 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: blue;
 }
 
 header {
     min-height: 5rem;
     background-color: darkblue;
     text-align: left;
-    padding-left: 40%;
+    padding: 0 30%;
+    border-bottom-left-radius: 12%;
+    border-bottom-right-radius: 15%;
 }
 
 main {
@@ -70,7 +72,10 @@ li {
 }
 
 footer {
+    border-top-left-radius: 12%;
+    border-top-right-radius: 15%;
     background-color: darkblue;
-    min-height: 5rem;
+    min-height: 16rem;
     margin-top: auto;
+    
 }
